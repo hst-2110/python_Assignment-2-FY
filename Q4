@@ -1,0 +1,9 @@
+#4. To check no. of days of the month entered.
+print("To check no. of days of the month entered.")
+month = input("Enter the month name:") 
+if month in ["January", "March", "May", "July", "August", "December","October"]:
+ print("The no. of days is 31.")
+elif month == "Feburary":
+     print("The no. of days in feburary month is 28/29.")
+else:
+      print(f'The no. of days in "{month}" is 30.")
